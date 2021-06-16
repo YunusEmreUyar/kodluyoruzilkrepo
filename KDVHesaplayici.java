@@ -1,4 +1,4 @@
-import java.utils.Scanner;
+import java.util.Scanner;
 
 public class KDVHesaplayici {
 	public static void main(String[] args){
@@ -8,7 +8,7 @@ public class KDVHesaplayici {
 		System.out.println("Ücreti giriniz:");
 		tutar = inp.nextDouble();
 		KDVOran = tutar > 1000? 0.18: 0.08;
-		KDVTutar = tutar*KDVOran;
+		KDVTutar = tutar*KDVOran+ tutar;
 		System.out.println(KDVTutar);
 	}
 }

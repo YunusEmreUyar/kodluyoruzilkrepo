@@ -1,4 +1,4 @@
-import java.utils.Scanner;
+import java.util.Scanner;
 import java.lang.Math;
 
 public class FindTriangleStuff {
@@ -13,6 +13,8 @@ public class FindTriangleStuff {
 		edge3 = inp.nextDouble();
 		u = (edge1+edge2+edge3)/2;
 		area = Math.sqrt(u* (u-edge1)*(u-edge2)*(u-edge3));
+		System.out.print(area);
+		
 	}
 
 }
